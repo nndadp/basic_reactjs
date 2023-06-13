@@ -7,7 +7,7 @@ export default function LoginPage() {
   return (
     <>
     <div className="flex justify-center items-center min-h-screen bg-[url('../../public/images/bg.jpg')] object-center bg-cover">
-    <AuthLayout title="Login" desc="silahkan di isi">
+    <AuthLayout title="Login" desc="silahkan di isi" type="login">
         <Login/>
         <p className="text-sm mt-4 text-center">
             Dont have an account?

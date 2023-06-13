@@ -6,8 +6,8 @@ import { Link } from 'react-router-dom';
 export default function RegisterPage() {
   return (
     <>
-   <div>
-   <AuthLayout title="Register" desc="silahkan di isi">
+    <div className="flex justify-center items-center min-h-screen bg-[url('../../public/images/bg.jpg')] object-center bg-cover">
+   <AuthLayout title="Register" desc="silahkan di isi" type="register">
         <Register/>
         <p className="text-sm mt-4 text-center">
             have account?
