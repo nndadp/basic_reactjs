@@ -2,10 +2,13 @@ import React from 'react'
 import AuthLayout from '../components/template/AuthLayout';
 import Register from '../components/organism/Register';
 import { Link } from 'react-router-dom';
+import Footer from '../components/molecules/Footer';
+import Navbar from '../components/molecules/Navbar';
 
 export default function RegisterPage() {
   return (
     <>
+    <Navbar/>
     <div className="flex justify-center items-center min-h-screen bg-[url('../../public/images/bg.jpg')] object-center bg-cover">
    <AuthLayout title="Register" desc="silahkan di isi" type="register">
         <Register/>
@@ -20,6 +23,7 @@ export default function RegisterPage() {
             </Link>
         </p>
     </AuthLayout>
+    <Footer/>
    </div>
     </>
   );

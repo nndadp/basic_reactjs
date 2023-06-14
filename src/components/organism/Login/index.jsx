@@ -7,7 +7,7 @@ export default function Login() {
     <form action="">
         <InputForm label="Email" name="email" type="email" placeholder="Masukkan email" />
         <InputForm label="password" name="password" type="password" placeholder="Masukkan password" />
-        <Button color="bg-blue-200">Login</Button>
+        <Button color="bg-pink-500">Login</Button>
     </form>
   )
 }
